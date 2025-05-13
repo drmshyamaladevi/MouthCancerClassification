@@ -1,0 +1,9 @@
+ Hardware Specifications
+Specify the hardware requirements needed to run the model, including recommended GPU specifications, memory, and disk space. If the model is optimized for certain hardware (e.g., using CUDA for NVIDIA GPUs), mention this as well.
+
+
+Recommended hardware: 
+- GPU: NVIDIA RTX 2080 Ti or better
+- CPU: Intel i7 or equivalent
+- RAM: 16GB or more
+- Storage: 10GB of free disk space for model and dataset
