@@ -1,0 +1,7 @@
+Jupyter Notebooks for Walkthroughs
+To provide more hands-on guidance, consider including Jupyter notebooks with detailed walkthroughs of the training and inference steps. Notebooks are interactive and can guide users through every step of the process with explanations, code snippets, and expected outputs.
+
+To use Jupyter Notebooks:
+1. Start Jupyter:
+   jupyter notebook
+2. Open the notebook in the browser to walk through the training and inference steps.
