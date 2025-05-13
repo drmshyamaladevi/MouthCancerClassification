@@ -1,0 +1,7 @@
+ Model Checkpoints
+Provide links to pre-trained model checkpoints (if available) or instructions on how to save and load trained models. This allows users to quickly test the model without having to train from scratch.
+
+
+Pre-trained model checkpoint: [Link to Model Checkpoints]
+To load a pre-trained model:
+model = load_model('./models/dwsu-net.h5')
