@@ -1,0 +1,5 @@
+ Expected Input Formats
+Specify the formats and structure of input data expected by the model. For instance, if images are used as input, mention the expected size, color channels (RGB/Grayscale), and file format (e.g., JPEG, PNG). Provide sample data or examples of how the input data should be preprocessed.
+
+Edit
+Input format: Images should be resized to 256x256 pixels and be in RGB format.
