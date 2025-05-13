@@ -1,0 +1,8 @@
+Example Commands
+Include example commands for training, inference, and testing the model. This is especially important for users who are not familiar with the codebase or structure.
+
+To train the model:
+python train.py --dataset ./data --epochs 50 --batch-size 32
+
+To run inference:
+python inference.py --model ./models/dwsu-net.h5 --image ./input_image.jpg
