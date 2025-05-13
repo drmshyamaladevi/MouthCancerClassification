@@ -1,0 +1,15 @@
+Abstract
+Mouth cancer represents a significant global public health challenge due to its high incidence rate and potentially fatal outcomes if not diagnosed early.
+Among the various types, oral cancer is notably prevalent and poses considerable diagnostic complexity due to its intricate histopathological architecture. 
+Traditional diagnostic methodologies such as manual clinical inspection and biopsy analysis are often time-intensive, inherently subjective, and susceptible to inter-observer variability among pathologists.
+To address these limitations, this study proposes novel framework, termed Depthwise Separable Convolution U-Net (DWSU-Net), aimed at enhancing the accuracy and efficiency of mouth cancer detection. 
+The research utilizes histopathologic images of oral tissues obtained from the publicly available Oral Cancer Detection dataset on Kaggle, which were captured using a Leica ICC50 HD microscope. 
+The proposed approach initiates with a comprehensive data preprocessing pipeline involving multiple filtering techniques.
+Raw histopathological images are transformed using Sobel filtering, Otsu thresholding, Canny edge detection, and morphological reconstruction via erosion, thereby improving feature saliency and contrast in malignant regions. 
+The preprocessed dataset is partitioned into training, validation, and testing subsets in an 80:10:10 ratio, and evaluated using 5-fold cross-validationto ensure the robustness and generalizability of the model.
+A comparative analysis was conducted using conventional CNN architectures to identify the most effective combination of model and filtering technique. 
+Empirical results indicated that MobileNet and U-Net, when applied to images filtered through morphological reconstruction by erosion, yielded superior classification performance.
+Motivated by these findings, the proposed DWSU-Net architecture was developed by integrating the strengths of MobileNet and U-Net.
+The innovation of the DWSU-Net model lies in its preprocessing strategy that significantly enhances the visibility of cancerous regions while suppressing noise and irrelevant features, facilitating more accurate classification.
+Experimental evaluations demonstrate that the proposed model achieves an outstanding classification accuracy of 99.74% in distinguishing between healthy and malignant oral tissue images, underscoring its potential for clinical deployment in automated cancer diagnostics.
+Keywords: Canny, CNN, deep learning, erosion image, UNet.
